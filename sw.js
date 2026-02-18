@@ -1,12 +1,12 @@
-const CACHE_NAME = "goose-guesser-v1";
+const CACHE_NAME = "goose-guesser-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./manifest.webmanifest",
+  "./manifest.webmanifest?v=2",
   "./engine.wasm",
   "./goose-preview.png",
-  "./goose-192.png",
-  "./goose-512.png"
+  "./goose-192-v2.png",
+  "./goose-512-v2.png"
 ];
 
 self.addEventListener("install", (event) => {
